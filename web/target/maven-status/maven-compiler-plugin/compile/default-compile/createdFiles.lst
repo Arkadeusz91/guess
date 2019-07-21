@@ -1,0 +1,10 @@
+arek\config\WebConfig.class
+arek\util\GameMappings.class
+arek\service\GameService.class
+arek\controller\GameController.class
+arek\WebMain.class
+arek\util\thymeleaf\DecoupledLogicSetup.class
+arek\interceptor\RequestInterceptor.class
+arek\service\GameServiceImpl.class
+arek\util\ViewNames.class
+arek\util\AttributeNames.class

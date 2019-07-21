@@ -1,0 +1,9 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/head.html :: headFragment}"/>
+    <attr sel="#resultMessage" th:text="${__${T(arek.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#playAgain" th:href="@{__${T(arek.util.GameMappings).RESTART}__}" th:text="#{game.playAgain}"/>
+    <attr sel="#home" th:href="@{__${T(arek.util.GameMappings).HOME}__}" th:text="#{game.home}"/>
+    <attr sel="#footerId" th:replace="~{fragments/footer.html :: footerFragment}"/>
+    <attr sel="#title" th:text="#{game.title}"/>
+    <attr sel="#gameOver" th:text="#{game.gameOver}"/>
+</thlogic>

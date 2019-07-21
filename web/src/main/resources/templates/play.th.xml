@@ -1,0 +1,11 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/head.html :: headFragment}"/>
+    <attr sel="#mainMessage" th:text="${__${T(arek.util.AttributeNames).MAIN_MESSAGE}__}"/>
+    <attr sel="#resultMessage" th:text="${__${T(arek.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#gameForm" th:action="@{__${T(arek.util.GameMappings).PLAY}__}" action="play" method="post"/>
+    <attr sel="#footerId" th:replace="~{fragments/footer.html :: footerFragment}"/>
+    <attr sel="#gameTitle" th:text="#{game.title}"/>
+    <attr sel="#enterGuess" th:text="#{game.enterGuess}"/>
+    <attr sel="#submit" th:value="#{game.submit}"/>
+
+</thlogic>
